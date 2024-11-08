@@ -1,6 +1,6 @@
 <template>
   <div>
-     <h2>footer</h2>
+    esta es otra pagina
   </div>
 </template>
 

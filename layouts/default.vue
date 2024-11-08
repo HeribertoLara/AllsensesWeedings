@@ -1,11 +1,11 @@
 <!-- layouts/default.vue -->
 <template>
   <div>
-    <Header /> <!-- Componente de encabezado global -->
+    <Header /> 
     <main>
-      <NuxtPage /> <!-- Aquí se renderizará el contenido de cada página -->
+      <NuxtPage /> 
     </main>
-    <Footer /> <!-- Componente de pie de página global -->
+    <Footer /> 
   </div>
 </template>
 
@@ -15,8 +15,5 @@ import Footer from '@/components/layout/Footer.vue';
 </script>
 
 <style scoped>
-main {
-  min-height: calc(100vh - 200px); /* Ajusta según la altura del header y footer */
-  padding: 20px; /* Espaciado para el contenido principal */
-}
+
 </style>

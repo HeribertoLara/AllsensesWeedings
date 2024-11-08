@@ -3,8 +3,7 @@
 /* Bold */
 @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-Bold.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-Bold.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-Bold.ttf') format('truetype');
      font-weight: 700; /* Bold */
      font-style: normal;
    }
@@ -12,8 +11,7 @@
    /* SemiBold */
    @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-SemiBold.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-SemiBold.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-SemiBold.ttf') format('truetype');
      font-weight: 600; /* SemiBold */
      font-style: normal;
    }
@@ -21,8 +19,7 @@
    /* Medium */
    @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-Medium.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-Medium.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-Medium.ttf') format('truetype');
      font-weight: 500; /* Medium */
      font-style: normal;
    }
@@ -30,8 +27,7 @@
    /* Regular */
    @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-Regular.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-Regular.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-Regular.ttf') format('truetype');
      font-weight: 400; /* Regular */
      font-style: normal;
    }
@@ -39,8 +35,7 @@
    /* Thin */
    @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-Thin.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-Thin.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-VariableFont_wght.ttf') format('truetype');
      font-weight: 100; /* Thin */
      font-style: normal;
    }
@@ -48,8 +43,7 @@
    /* Italic */
    @font-face {
      font-family: 'Garamond Premier Pro';
-     src: url('/assets/fonts/GaramondPremierPro-Italic.woff2') format('woff2'),
-          url('/assets/fonts/GaramondPremierPro-Italic.woff') format('woff');
+     src: url('@/assets/styles/fonts/Garamond-Italic.ttf') format('truetype');
      font-weight: 400; /* Italic */
      font-style: italic;
    }
@@ -59,8 +53,7 @@
    /* Bold */
    @font-face {
      font-family: 'SF Pro Display';
-     src: url('/assets/fonts/SFProDisplay-Bold.woff2') format('woff2'),
-          url('/assets/fonts/SFProDisplay-Bold.woff') format('woff');
+     src: url('@/assets/styles/fonts/SF-Pro-Display-Bold.otf') format('truetype');
      font-weight: 700; /* Bold */
      font-style: normal;
    }
@@ -68,8 +61,7 @@
    /* SemiBold */
    @font-face {
      font-family: 'SF Pro Display';
-     src: url('/assets/fonts/SFProDisplay-SemiBold.woff2') format('woff2'),
-          url('/assets/fonts/SFProDisplay-SemiBold.woff') format('woff');
+     src: url('@/assets/styles/fonts/SF-Pro-Display-SemiBold.otf') format('truetype');
      font-weight: 600; /* SemiBold */
      font-style: normal;
    }
@@ -77,8 +69,7 @@
    /* Regular */
    @font-face {
      font-family: 'SF Pro Display';
-     src: url('/assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
-          url('/assets/fonts/SFProDisplay-Regular.woff') format('woff');
+     src: url('@/assets/styles/fonts/SF-Pro-Display-Medium.otf') format('truetype');
      font-weight: 400; /* Regular */
      font-style: normal;
    }
@@ -86,8 +77,7 @@
    /* Thin */
    @font-face {
      font-family: 'SF Pro Display';
-     src: url('/assets/fonts/SFProDisplay-Thin.woff2') format('woff2'),
-          url('/assets/fonts/SFProDisplay-Thin.woff') format('woff');
+     src: url('@/assets/styles/fonts/SF-Pro-Display-Thin.otf') format('truetype');
      font-weight: 100; /* Thin */
      font-style: normal;
    }
@@ -95,8 +85,7 @@
    /* Italic */
    @font-face {
      font-family: 'SF Pro Display';
-     src: url('/assets/fonts/SFProDisplay-Italic.woff2') format('woff2'),
-          url('/assets/fonts/SFProDisplay-Italic.woff') format('woff');
+     src: url('@/assets/styles/fonts/SF-Pro-Display-RegularItalic.otf') format('truetype');
      font-weight: 400; /* Italic */
      font-style: italic;
    }

@@ -7,10 +7,12 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   
   googleFonts: {
-    families: {  
-      Lato: [400],  // Peso Regular
-    },
-  }, // This closing bracket was missing
+    download: false,
+    families: {
+      'Open+Sans': [100, 300, 400, 600, 700, 800],
+      Lato: [100, 300, 400, 600, 700, 800],
+    }
+  },
 
   i18n: {
     locales: [
@@ -23,7 +25,7 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    cssPath: '~/assets/styles/tailwind.css',
+    cssPath: '~/assets/styles/tailwinds/tailwind.css',
     configPath: '~/tailwind.config',
     exposeConfig: {
       level: 2,
@@ -32,7 +34,7 @@ export default defineNuxtConfig({
   },
 
   css: [
-    /* '@/assets/styles/tailwinds/tailwind.css', */
-    '@/assets/styles/main.css',     
+    './assets/styles/tailwinds/tailwind.css', 
+    './assets/styles/main.css',     
   ],
 });
